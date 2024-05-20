@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="41.989">
+    <testcase classname="To Get the Table Data" name="Get the table row data" time="41.733">
+        <system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open URL "https://demo.aspnetawesome.com".........................passed
+When User Search for the Input ID "1113" and get result.....................passed
+And close browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

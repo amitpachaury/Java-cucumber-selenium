@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-16T02:48:13.198Z",
+        "line": 3,
+        "name": "Get the table row data",
+        "description": "",
+        "id": "to-get-the-table-data;get-the-table-row-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3874652000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome Browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_Launch_Chrome_Browser_and_open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3089197000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open URL \"https://demo.aspnetawesome.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.aspnetawesome.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Steps.User_open_URL(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34361617000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Search for the Input ID \"1113\" and get result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1113\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_Search_for_the_Input_ID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205273000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To Get the Table Data",
+    "description": "",
+    "id": "to-get-the-table-data",
+    "keyword": "Feature",
+    "uri": "file:Feature/inputTable.feature",
+    "tags": []
+  }
+]
